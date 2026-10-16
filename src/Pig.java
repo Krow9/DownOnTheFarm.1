@@ -21,7 +21,7 @@ public class Pig {
         }
         public void makeNoise()
         {
-            System.out.println("CLUCK CLUCK CLUCK");
+            System.out.println("OINK OINK OINK");
         }
         public void upgradePenSize(int amount) {
         Pen++;

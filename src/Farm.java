@@ -8,15 +8,19 @@ public class Farm {
         Pig piglet = new Pig();
         Pig pickles = new Pig("Yellow", 10, true, 567.99);
 
+        System.out.println( ) ;
         franny.makeNoise();
         clucky.makeNoise();
         pickles.makeNoise();
         gretta.haveBirthday();
-        marshmellow.eatFood(1);
+        marshmellow.eatFood(10);
         piglet.upgradePenSize(3);
 
+        System.out.println( ) ;
         gretta.displayCow();
+        System.out.println( ) ;
         marshmellow.displayChicken();
+        System.out.println( ) ;
         piglet.displayPig();
 
     }

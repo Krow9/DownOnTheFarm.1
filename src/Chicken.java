@@ -28,7 +28,7 @@ public class Chicken {
     }
     public void displayChicken() {
         System.out.println("Breed:" + Breed );
-        System.out.println("Eggs:" + Eggs );
+        System.out.println("Eggs Per Day:" + Eggs );
         System.out.println("Rude:" + Rude );
         System.out.println("Weight:" + Weight );
 
